@@ -7,3 +7,7 @@ export const Container = styled.SafeAreaView`
   margintop: ${isAndroid ? `${StatusBar.currentHeight}px` : 0};
   flex: 1;
 `;
+
+export const TasksConatainer = styled.View`
+  flex: 1;
+`;
